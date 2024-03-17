@@ -1,4 +1,4 @@
-﻿namespace LoremGen;
+﻿namespace Fusion.LoremGen;
 
 /// <summary>
 /// This is the Lorem Ipsum generator.

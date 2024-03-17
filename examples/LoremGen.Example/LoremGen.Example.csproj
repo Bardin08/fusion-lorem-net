@@ -6,6 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <AssemblyName>Fusion.LoremGen.Example</AssemblyName>
+        <RootNamespace>Fusion.LoremGen.Example</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

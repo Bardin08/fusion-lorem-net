@@ -1,5 +1,5 @@
 ﻿using System.Text;
-using LoremGen.Example;
+using Fusion.LoremGen;
 
 const int totalWords = 500;
 const int totalParagraphs = totalWords / 100;
@@ -14,7 +14,7 @@ return;
 
 void Words()
 {
-    var words = LoremGen.LoremGen.Words(totalWords);
+    var words = LoremGen.Words(totalWords);
 
     var fileWriter = File.OpenWrite("./dest-words.txt");
     foreach (var item in words)
@@ -27,7 +27,7 @@ void Words()
 
 void Paragraphs()
 {
-    var paragraphs = LoremGen.LoremGen.Paragraphs(totalParagraphs);
+    var paragraphs = LoremGen.Paragraphs(totalParagraphs);
 
     var fileWriter = File.OpenWrite("./dest-paragraphs.txt");
     foreach (var item in paragraphs)

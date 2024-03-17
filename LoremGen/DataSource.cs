@@ -1,5 +1,5 @@
 ﻿// ReSharper disable StringLiteralTypo
-namespace LoremGen;
+namespace Fusion.LoremGen;
 
 internal static class DataSource
 {
