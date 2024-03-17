@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <AssemblyName>Fusion.LoremGen.Example</AssemblyName>
+        <RootNamespace>Fusion.LoremGen.Example</RootNamespace>
+        <LangVersion>12</LangVersion>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\LoremGen\LoremGen.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoremGen", "LoremGen\LoremGen.csproj", "{40EF1283-0286-477C-959C-C6862C9FE762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoremGen.Example", "examples\LoremGen.Example\LoremGen.Example.csproj", "{F7602F09-FBFF-41B2-AE38-31CBFC396861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40EF1283-0286-477C-959C-C6862C9FE762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EF1283-0286-477C-959C-C6862C9FE762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EF1283-0286-477C-959C-C6862C9FE762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EF1283-0286-477C-959C-C6862C9FE762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7602F09-FBFF-41B2-AE38-31CBFC396861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7602F09-FBFF-41B2-AE38-31CBFC396861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7602F09-FBFF-41B2-AE38-31CBFC396861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7602F09-FBFF-41B2-AE38-31CBFC396861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

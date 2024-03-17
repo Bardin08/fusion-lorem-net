@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>Fusion.LoremGen</RootNamespace>
+        <AssemblyName>Fusion.LoremGen</AssemblyName>
+    </PropertyGroup>
+
+</Project>
