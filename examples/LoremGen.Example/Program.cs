@@ -1,39 +1,10 @@
-﻿using System.Text;
-using Fusion.LoremGen;
+﻿using Fusion.LoremGen;
 
-const int totalWords = 500;
-const int totalParagraphs = totalWords / 100;
+const int totalWords = 5;
+const int totalParagraphs = 1;
 
-const bool generateWords = true;
-if (generateWords)
-    Words();
-else
-    Paragraphs();
+var words = LoremGen.Words(totalWords);
+Console.WriteLine("Generated words: {0}", string.Join(" ", words));
 
-return;
-
-void Words()
-{
-    var words = LoremGen.Words(totalWords);
-
-    var fileWriter = File.OpenWrite("./dest-words.txt");
-    foreach (var item in words)
-    {
-        var formattedItem = item + " ";
-        var bytes = Encoding.UTF8.GetBytes(formattedItem);
-        fileWriter.Write(bytes);
-    }
-}
-
-void Paragraphs()
-{
-    var paragraphs = LoremGen.Paragraphs(totalParagraphs);
-
-    var fileWriter = File.OpenWrite("./dest-paragraphs.txt");
-    foreach (var item in paragraphs)
-    {
-        var formattedItem = item + " ";
-        var bytes = Encoding.UTF8.GetBytes(formattedItem);
-        fileWriter.Write(bytes);
-    }
-}
+var paragraph = LoremGen.Paragraphs(totalParagraphs).First();
+Console.WriteLine("Generated paragraph: {0}", paragraph);
