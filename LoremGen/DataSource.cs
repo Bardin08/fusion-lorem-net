@@ -2,7 +2,7 @@
 
 using System.Collections.Generic;
 
-namespace Fusion.LoremGen
+namespace LoremGen
 {
     internal static class DataSource
     {

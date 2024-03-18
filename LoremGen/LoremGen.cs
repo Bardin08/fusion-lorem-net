@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Fusion.LoremGen
+namespace LoremGen
 {
     /// <summary>
     /// This is the Lorem Ipsum generator.
@@ -39,7 +39,7 @@ namespace Fusion.LoremGen
                 var indexes = Enumerable.Range(0, wordsInParagraph)
                     .Select(_ => _random.Next(0, DataSource.WordsNumber));
 
-                var paragraph = string.Join(" ", indexes.Select<int, string>(idx => DataSource.Words[idx]));
+                var paragraph = string.Join(" ", indexes.Select(idx => DataSource.Words[idx]));
                 yield return paragraph;
             }
         }
